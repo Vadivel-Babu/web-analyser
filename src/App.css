@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px auto;
+}
