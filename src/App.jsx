@@ -15,7 +15,7 @@ function App() {
       setIsLoading(true);
       setData(null);
       const response = await axios.get(
-        `http://localhost:5000/analyze?url=${url}`
+        `https://backend-analyser.onrender.com/analyze?url=${url}`
       );
       setData(response.data);
       setIsLoading(false);
